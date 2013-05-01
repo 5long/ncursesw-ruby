@@ -50,4 +50,6 @@ spec = Gem::Specification.new do |s|
     "compat.h",
   ]
   s.extensions    = ['extconf.rb']
+
+  s.add_development_dependency 'rake'
 end
